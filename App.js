@@ -16,10 +16,6 @@ mongoose
 ;
 
 
-// mongoose.connect('mongodb://localhost/todolist')
-// .then(()=> console.log('DBconnected'))
-// .catch((err)=> console.log(err))
-
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
